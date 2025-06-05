@@ -1,12 +1,13 @@
 # React + Vite
+---
+This is a sample of getting data from json-server and displaying it on browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+First you must write this command in the vscode terminal:
 
-Currently, two official plugins are available:
+*This part is used to get data from json server.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 	`npx json-server db.json`
 
-## Expanding the ESLint configuration
+Then you must open cmd(**command prompt**) and go to the folder and write this command:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 	`npm run dev`
