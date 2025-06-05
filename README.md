@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite(Rest-api)
 ---
 This is a sample of getting data from json-server and displaying it on browser.
 
